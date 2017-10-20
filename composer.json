@@ -1,0 +1,35 @@
+{
+    "name": "sayaamiruladli/laravel-helper",
+    "description": "The Laravel Helper Extension.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "homepage": "https://vortechron.com",
+    "support": {
+        "issues": "https://github.com/sayaamiruladli/laravel-helper/issues",
+        "source": "https://github.com/sayaamiruladli/laravel-helper"
+    },
+    "authors": [
+        {
+            "name": "Amirul Adli",
+            "email": "sayaamiruladli@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/helpers.php",
+        ],
+        "psr-4": {
+            "Sayaamiruladli\\Helper\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
